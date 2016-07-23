@@ -1,0 +1,131 @@
+//draw GG game over screen
+
+
+static inline void drawSegment2(int x, int y, COLOR clr){
+  drawSegment(x*4,y*4,clr);
+}
+
+static inline void drawSegment3(int x, int y, COLOR clr){
+  drawSegment((13+x)*4,y*4,clr);
+}
+
+void drawGG(COLOR gg, COLOR lr){
+  //first G
+  drawSegment2(19,11,gg);
+  drawSegment2(19,12,gg);
+  drawSegment2(19,13,gg);
+  drawSegment2(19,14,gg);
+  drawSegment2(19,15,gg);
+  drawSegment2(19,16,gg);
+  drawSegment2(19,17,gg);
+  drawSegment2(20,10,gg);
+  drawSegment2(20,18,gg);
+  drawSegment2(21,19,gg);
+  drawSegment2(22,19,gg);
+  drawSegment2(23,19,gg);
+  drawSegment2(24,19,gg);
+  drawSegment2(25,19,gg);
+  drawSegment2(26,19,gg);
+  drawSegment2(27,19,gg);
+  drawSegment2(21,19,gg);
+  drawSegment2(21,9,gg);
+  drawSegment2(22,9,gg);
+  drawSegment2(23,9,gg);
+  drawSegment2(24,9,gg);
+  drawSegment2(25,9,gg);
+  drawSegment2(26,9,gg);
+  drawSegment2(27,9,gg);
+  drawSegment2(21,9,gg);
+  drawSegment2(28,18,gg);
+  drawSegment2(28,17,gg);
+  drawSegment2(29,16,gg);
+  drawSegment2(29,15,gg);
+  drawSegment2(22,15,gg);
+  drawSegment2(23,15,gg);
+  drawSegment2(24,15,gg);
+  drawSegment2(25,15,gg);
+  drawSegment2(26,15,gg);
+  drawSegment2(27,15,gg);
+  drawSegment2(28,15,gg);
+  //second G
+  drawSegment3(19,11,gg);
+  drawSegment3(19,12,gg);
+  drawSegment3(19,13,gg);
+  drawSegment3(19,14,gg);
+  drawSegment3(19,15,gg);
+  drawSegment3(19,16,gg);
+  drawSegment3(19,17,gg);
+  drawSegment3(20,10,gg);
+  drawSegment3(20,18,gg);
+  drawSegment3(21,19,gg);
+  drawSegment3(22,19,gg);
+  drawSegment3(23,19,gg);
+  drawSegment3(24,19,gg);
+  drawSegment3(25,19,gg);
+  drawSegment3(26,19,gg);
+  drawSegment3(27,19,gg);
+  drawSegment3(21,19,gg);
+  drawSegment3(21,9,gg);
+  drawSegment3(22,9,gg);
+  drawSegment3(23,9,gg);
+  drawSegment3(24,9,gg);
+  drawSegment3(25,9,gg);
+  drawSegment3(26,9,gg);
+  drawSegment3(27,9,gg);
+  drawSegment3(21,9,gg);
+  drawSegment3(28,18,gg);
+  drawSegment3(28,17,gg);
+  drawSegment3(29,16,gg);
+  drawSegment3(29,15,gg);
+  drawSegment3(22,15,gg);
+  drawSegment3(23,15,gg);
+  drawSegment3(24,15,gg);
+  drawSegment3(25,15,gg);
+  drawSegment3(26,15,gg);
+  drawSegment3(27,15,gg);
+  drawSegment3(28,15,gg);
+  //L
+  drawSegment2(20,25,lr);
+  drawSegment2(20,26,lr);
+  drawSegment2(20,27,lr);
+  drawSegment2(20,28,lr);
+  drawSegment2(20,29,lr);
+  drawSegment2(20,30,lr);
+  drawSegment2(20,31,lr);
+  drawSegment2(21,31,lr);
+  drawSegment2(22,31,lr);
+  drawSegment2(23,31,lr);
+  //+
+  drawSegment2(26,28,lr);
+  drawSegment2(27,28,lr);
+  drawSegment2(28,28,lr);
+  drawSegment2(29,28,lr);
+  drawSegment2(30,28,lr);
+  drawSegment2(31,28,lr);
+  drawSegment2(32,28,lr);
+  drawSegment2(29,31,lr);
+  drawSegment2(29,30,lr);
+  drawSegment2(29,29,lr);
+  drawSegment2(29,27,lr);
+  drawSegment2(29,26,lr);
+  drawSegment2(29,25,lr);
+  //R
+  drawSegment2(36,25,lr);
+  drawSegment2(36,26,lr);
+  drawSegment2(36,27,lr);
+  drawSegment2(36,28,lr);
+  drawSegment2(36,29,lr);
+  drawSegment2(36,30,lr);
+  drawSegment2(36,31,lr);
+  drawSegment2(37,25,lr);
+  drawSegment2(38,25,lr);
+  drawSegment2(39,25,lr);
+  drawSegment2(40,26,lr);
+  drawSegment2(40,27,lr);
+  drawSegment2(39,28,lr);
+  drawSegment2(38,28,lr);
+  drawSegment2(37,28,lr);
+  drawSegment2(38,29,lr);
+  drawSegment2(39,30,lr);
+  drawSegment2(40,31,lr);
+}

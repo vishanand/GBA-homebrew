@@ -5,6 +5,7 @@
 #include <stdlib.h>
 
 #include "main.h"
+#include "gg.h"
 
 // extra stuff, also in tonc_video.h
 #define M3_WIDTH    SCREEN_WIDTH
@@ -38,6 +39,7 @@ int main(){
   srand(1337);
   fruitX = 20 + 4*(rand() % 50);
   fruitY = 20 + 4*(rand() % 30);
+  drawGG(CLR_BLACK, CLR_BLACK);
 
 	for(;;){
     scanKeys();
@@ -76,6 +78,7 @@ int main(){
 
   gameOver:
     drawSegment(0,0,CLR_ERROR);
+    drawGG(CLR_MAG, CLR_CYAN);
     drawSnake(CLR_BG);
     drawSegment(fruitX, fruitY, CLR_BG);
     freeEmAll();
