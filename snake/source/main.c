@@ -41,7 +41,7 @@ int main(){
   fruitY = 20 + 4*(rand() % 30);
   drawGG(CLR_BLACK, CLR_BLACK);
 
-	for(;;){
+  for(;;){
     scanKeys();
     key_states = ~REG_KEYINPUT & KEY_ANY;
     if (key_states & KEY_UP && (dirY!=1 || length==1)){
@@ -74,7 +74,7 @@ int main(){
       goto gameOver;
     VBlankIntrWait();
     VBlankIntrWait();
-	}
+  }
 
   gameOver:
     drawSegment(0,0,CLR_ERROR);
