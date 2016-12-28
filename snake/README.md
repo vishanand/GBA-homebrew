@@ -13,3 +13,5 @@ Eat the magenta fruits to grow your snake further and further.
 If you see a screen with the text "GG L+R", then you have collided into yourself or the edge of the screen, causing a game-over. Restart the game by holding the right and left triggers.
 
 TODO: implement title/game-over screens
+
+![Screenshot](screen.png?raw=true)
