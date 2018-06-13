@@ -10,3 +10,8 @@ These programs may be run on a real GBA/DS handheld with a flashcart, or through
 These programs use the libgba library that is included in devkitPro and parts of [tonclib](http://www.coranac.com/tonc/text/toc.htm).
 
 Tools such as the bitmap tile editor [Usenti](http://www.coranac.com/projects/usenti/) and the Gameboy Advance Emulator [VBA-M](https://github.com/visualboyadvance-m/visualboyadvance-m) have been of great value in development.
+
+
+BRICKS running on a physical Gameboy Micro unit:
+
+<img src="bricks/RealGameboy.jpg?raw=true" width=35%>
